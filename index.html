@@ -3,12 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Todo List</title>
+    <title>ToDo List con JavaScript</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <div class="container">
-      <h1 class="mainTitle">Todo List</h1>
+      <h1>La Mia ToDo List</h1>
+      <div class="input-section">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Aggiungi un nuovo compito..."
+        />
+        <button id="add-task-btn">Aggiungi</button>
+      </div>
+      <ul id="task-list">
+        <!-- I compiti verranno inseriti qui da JavaScript -->
+      </ul>
     </div>
 
     <script src="assets/js/app.js"></script>
